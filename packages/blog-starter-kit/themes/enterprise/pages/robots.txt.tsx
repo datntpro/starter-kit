@@ -4,7 +4,7 @@ const RobotsTxt = () => null;
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
 	const { res } = ctx;
-	const host = process.env.NEXT_PUBLIC_HASHNODE_PUBLICATION_HOST;
+  const host = process.env.ENV_PROD_DOMAIN;
 	if (!host) {
 		throw new Error('Could not determine host');
 	}
