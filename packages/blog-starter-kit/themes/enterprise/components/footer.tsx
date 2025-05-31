@@ -131,7 +131,7 @@ export const Footer = () => {
 					</div>
 					<div className="col-span-2 flex flex-col items-end gap-5 text-right text-slate-600 dark:text-neutral-300 md:text-left">
 						<SocialLinks />
-						<p>&copy; 2025 - Dat's Blog</p>
+						<p>&copy; 2025 Dat's Blog</p>
 						<p>
 							<a href="#" className="hover:underline">
 								Privacy Policy
